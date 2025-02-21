@@ -1,0 +1,288 @@
+header
+{
+    width:100%;
+    padding:30px 0;
+    background-color:#F0F0F0;
+}
+.cabecalho_hardware .lista_menu ul li
+{
+   display: inline;
+   margin-left:20px;
+   list-style-type:none;
+}
+.menu_placa .login
+{
+    height:55px;
+    background-image:url("../_logo/login1.png");
+    background-repeat:no-repeat;
+}
+.menu_placa .lista_menu  ul li a
+{
+    float:right;
+    margin-right:30px;
+    text-decoration:none;
+    color: black;  
+    font-family: "Open Sans", serif;
+    font-weight: 500;
+    font-size:19px;
+    font-style: normal;
+    position: relative;
+    top:-45px;
+}
+
+/*----- Main corpo Placa -----*/
+.corpo_placa .lista_placa li img
+{
+    width:84px;
+    height:67px;
+    border:1px solid #666666;
+    transition-duration:1s;
+}
+.corpo_placa .container .lista_placa li
+{
+  display:inline-flex;
+  margin-top:20px;
+  
+}
+.post-imagens  
+{
+    float:left;
+    display:inline;
+    flex-wrap: wrap;
+    margin-top:40px;
+}
+.placa_steel,.listadecricao
+{
+    margin-left:45px;
+    position: relative;
+    left:25px;
+    top:10px;
+    align-items: center;
+    font-family: "Roboto", serif;
+    color:#fff;
+}
+.placa_steel h1
+{
+    font-weight:300;
+    font-size:3.3em;
+   
+}
+.listadecricao
+{
+    font-weight:400;
+    font-size:22px;
+}
+.suportdecricoa li
+{
+    display:inline;
+}
+.suportdecricoa img
+{
+    margin-top:12px;
+    margin-left:12px;
+}
+.corpo_placa .lista_placa li img:hover
+{
+    border:3px solid #fff;
+    cursor: pointer;
+    transition-duration:3s;
+}
+.poste_placa img
+{
+    width:100%;
+}
+/*----- Main corpo Placa -----*/
+
+/*----- lista_menu_navegado ---*/
+section.lista_menu_navegado .bnt-menu
+{
+    width:100%;
+    padding:17px 0;
+    height:70px;
+    margin-top:20px;
+    background-color:#4A4A4B;
+}
+.bnt-menu .recursos-lista ul li
+{
+    display:inline;
+    margin-left:40px;
+    align-items:flex-start;
+    list-style-type:none;
+    transition-duration:1s;
+}
+.recursos-lista li a
+{
+    font-size:25px;
+    margin-left:0px;
+    text-align: center;
+    text-decoration:none;
+    font-family: "Roboto", serif;
+    color:#161515;
+}
+.recursos-lista li:hover
+{
+    width:290px;
+    padding:25px ;
+    background-color: #CBC7C7;
+    transition-duration:3s;
+    text-transform: uppercase;
+}
+/*----- lista_menu_navegado ---*/
+
+/*----- recursos-unico -----*/
+.recursos-unico .tabela  th,td
+{
+    border:0px solid #b3b3b3;
+    border-collapse: collapse;
+    color:#fff;
+    width:400px;
+    float:right;
+    margin-bottom:20px;
+    margin-top:30px;
+    text-align: justify;
+    font-family: "Roboto", serif;
+    
+}
+.recursos-unico .tabela tr th
+{
+   text-align: justify;
+   font-weight:400;
+   margin-left:45px;
+   
+}
+/*----- recursos-unico -----*/
+
+/*----- lista-btn -----*/
+.lista-btn .container .navegado-btn ul li
+{
+    display:inline;
+    padding:20px;
+}
+.lista-btn .navegado-btn li
+{
+    height:101px;
+    background-color:#4A4A4B;
+    position: relative;
+    top:20px;
+    margin-left:10px;
+    list-style-type:none;
+    transition-duration:1s;
+}
+.navegado-btn
+{
+    margin-bottom:45px;
+}
+.navegado-btn li a
+{
+    text-decoration:none;
+    color:#fff;
+    font-family:"Roboto", serif;
+    font-size:15px;
+    transition-duration:1s;
+    margin-bottom:20px;
+}
+.lista-btn .navegado-btn li:hover
+{
+    transition-duration:3s;
+    background-color:#9d9d9e;
+}
+
+/*----- lista-btn -----*/
+
+
+/*----- formulario -----*/
+.contato h3 ,p
+{
+    color:#F0F0F0;
+    font-family: "Roboto", serif;
+    margin-bottom:8px;
+
+}
+.contato h3
+{
+    font-size:1.5em;
+    color:#37A8FF;
+}
+.contato p
+{
+    font-size:17px;
+    color:#37A8FF;
+    font-weight:normal;
+}
+div.formulario form input
+{
+    display:block;
+    width:420px;
+    height:45px;
+    margin-bottom:8px;
+    padding-left:10px;
+    background-color:#F5F3F3;
+    outline-color: #37A8FF;
+}
+div.formulario form textarea
+{
+    width:420px;
+    height:186px;
+    padding:8px;
+    background-color:#F5F3F3;
+    outline-color: #37A8FF;
+}
+.contato .container,.formulario
+{
+    position: relative;
+    top:45px;
+}
+.formulario button
+{
+    width:305px;
+    height:53px;
+    border-radius:6px;
+    outline:none;
+    align-items: center;
+    margin-left:65px;
+    margin-top:12px;
+    background-color: #135c94;
+    border:none;
+    font-family: "Roboto", serif;
+    font-size:25px;
+    color:#fff;
+}
+.contato 
+{
+    display:inline;
+}
+.contact-methods
+{
+    display:flex;
+    justify-content:space-between;
+}
+.contact-methods p
+{
+    font-size:17px;
+    color:#ffffff;
+    font-weight:normal;
+}
+.contact-methods  ul  ,li ,a img
+{
+    height:32px;
+    display:flex;
+    margin-left:8px;
+   
+}
+ 
+/*----- formulario -----*/
+
+footer.rodape
+{
+    width:100%;
+    padding:20px;
+    background-color:#0A1F43;
+    position: relative;
+    top:112px;
+}
+footer.rodape .descricao
+{
+    font-family: "Roboto", serif;
+    font-size:19px;
+    text-align: center;
+}
