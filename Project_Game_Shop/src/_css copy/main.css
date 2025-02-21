@@ -1,0 +1,25 @@
+header.cabecalho .menu
+{
+    background-color:#0F1D37;
+}
+.cabecalho .login
+{
+    height:60px;
+    background-image:url("../_logo/FunkoGames.png");
+    background-size:10%;
+    background-repeat:no-repeat;
+}
+.cabecalho nav li
+{
+    display:inline;
+    margin-left:63px;
+}
+.menu 
+{
+    background-color: black;
+}
+.cabecalho .lista-menu a
+{
+    color:#fff;
+    text-decoration:none;
+}
